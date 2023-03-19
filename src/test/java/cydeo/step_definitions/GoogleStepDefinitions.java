@@ -1,10 +1,11 @@
 package cydeo.step_definitions;
 
-import cydeo.pages.*;
-import cydeo.utilities.*;
-import io.cucumber.java.en.*;
-import org.junit.*;
-import org.openqa.selenium.*;
+import cydeo.pages.GoogleSearchPage;
+import cydeo.utilities.Driver;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.Keys;
 
 public class GoogleStepDefinitions {
 

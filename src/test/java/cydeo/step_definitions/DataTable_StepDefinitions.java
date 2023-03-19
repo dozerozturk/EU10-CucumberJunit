@@ -1,11 +1,13 @@
 package cydeo.step_definitions;
 
-import cydeo.pages.*;
-import cydeo.utilities.*;
-import io.cucumber.java.en.*;
-import org.junit.*;
+import cydeo.pages.DropdownsPage;
+import cydeo.utilities.BrowserUtils;
+import cydeo.utilities.Driver;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import org.junit.Assert;
 
-import java.util.*;
+import java.util.List;
 
 public class DataTable_StepDefinitions {
 

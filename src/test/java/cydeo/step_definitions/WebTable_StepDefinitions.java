@@ -1,10 +1,15 @@
 package cydeo.step_definitions;
 
-import cydeo.pages.*;
-import cydeo.utilities.*;
-import io.cucumber.java.en.*;
 
-import java.util.*;
+import cydeo.pages.WebTableLoginPage;
+import cydeo.utilities.BrowserUtils;
+import cydeo.utilities.ConfigurationReader;
+import cydeo.utilities.Driver;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+import java.util.Map;
 
 public class WebTable_StepDefinitions {
 

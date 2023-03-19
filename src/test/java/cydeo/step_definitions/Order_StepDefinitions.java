@@ -1,11 +1,19 @@
 package cydeo.step_definitions;
 
-import cydeo.pages.*;
-import cydeo.utilities.*;
-import io.cucumber.java.en.*;
-import org.junit.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.*;
+import cydeo.pages.BasePage;
+import cydeo.pages.OrderPage;
+import cydeo.pages.ViewAllOrdersPage;
+import cydeo.pages.WebTableLoginPage;
+import cydeo.utilities.BrowserUtils;
+import cydeo.utilities.ConfigurationReader;
+import cydeo.utilities.Driver;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.Select;
 
 public class Order_StepDefinitions {
 

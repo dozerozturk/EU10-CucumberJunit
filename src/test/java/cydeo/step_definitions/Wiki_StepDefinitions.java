@@ -1,9 +1,12 @@
 package cydeo.step_definitions;
 
-import cydeo.pages.*;
-import cydeo.utilities.*;
-import io.cucumber.java.en.*;
-import org.junit.*;
+
+import cydeo.pages.WikiSearchPage;
+import cydeo.utilities.Driver;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.junit.Assert;
 
 public class Wiki_StepDefinitions {
 
