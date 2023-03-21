@@ -155,7 +155,7 @@ Today's schedule:
 
 - Background:
     - Used to create pre-conditions for Scenarios in same feature file.
-    - Background keyword allows us to add repeating steps 1 time, and they will be working with all of the scenarios in the SAME FEATURE file
+    - Background keyword allows us to add repeating steps 1 time, and they will be working with all the scenarios in the SAME FEATURE file
 
     - Background can only effect the scenarios that are in the same feature file
     - I cannot write background in one feature file and have it run for other scenarios in other feature files
