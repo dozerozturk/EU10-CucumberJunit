@@ -117,7 +117,7 @@ Today's schedule:
 
 - What aspects of the project we control from Runner class?    
     - plugin    : determines what type of report we want to generate with our project, and also where we want to store.
-    - features  : we provide the path of the 'features' directory and let our project know where to find all of the feature files.
+    - features  : we provide the path of the 'features' directory and let our project know where to find all the feature files.
     - glue         : glue gives path to the package of the step_definitions
     - dryrun    : dryRun determines if we want to execute the step_definitions or not
         - if dryRun is true: dryRun is turned on, and step definitions are turned off (will not run)
