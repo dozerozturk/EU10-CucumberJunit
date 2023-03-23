@@ -188,6 +188,7 @@ PARAMETERIZATION: CUCUMBER EXPRESSIONS
 
     - we can pass more than one examples table under one scenario outline
 
+
  
 
  
