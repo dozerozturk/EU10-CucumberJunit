@@ -83,6 +83,7 @@ Today's schedule:
         </plugin>
 
 
+
 #2- We adjust our Driver Singleton logic to be able to handle multi-threads.
 
 How do we change our Driver to handle multi-threads?
@@ -297,7 +298,8 @@ tell me about your framework
 - so that if there are any problems with any web elements, I know exactly where to go and how to fix it.
 - I created Singleton Design Pattern to allow my framework to pass the same instance of my webdriver in one session.
 - (one session: when you click run, selenium creates one session. the session will end when the driver stops.)
-- I created a configuration.PROPERTIES type of file where I keep the important test data about my framework. I keep Test data that can change the running flow of the whole framework, such as:
+- I created a configuration.PROPERTIES type of file where I keep the important test data about my framework.
+    I keep Test data that can change the running flow of the whole framework, such as:
 - browser
 - username/password
 - url: to change and run on different environments
@@ -312,7 +314,8 @@ tell me about your framework
 - I implemented the actual coding logic with JAVA-SELENIUM-JUNIT... inside of my step_definitions package and it their own respective/related classes
 - I trigger my framework from my runner class.
 - Runner class allows me to run different types of testing suites that I created with my tags, such as smoke, regression, mini-regression.
-- I have different types of reports. But mainly I use "maven-cucumber-reporting" which is a very detailed reporting tool that has pie-charts, matrixes on which tests are passing and failing.
+- I have different types of reports. But mainly I use "maven-cucumber-reporting" which is a very detailed reporting tool that has pie-charts,
+    matrixes on which tests are passing and failing.
 - Even has the option to show what percentage of which tags are failing and passing.
 - Hooks class, where we implement some cucumber annotations such as Before, After, beforestep, afterstep to create outline for my scenarios.
 - I also implemented a logic where my framework is taking a screenshot and attaching it to my report if a scenario is failing.
